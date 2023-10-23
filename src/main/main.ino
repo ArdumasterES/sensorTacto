@@ -5,7 +5,6 @@ CapacitiveSensor capSensor(2,12);
 
 void setup() {
   Serial.begin(9600);
-  capSensor.set_CS_AutocaL_Millis(0xFFFFFFFF);
 }
 
 void loop() {
